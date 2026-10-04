@@ -1,0 +1,72 @@
+/* PageKit palette inherited from the approved local design. */
+:root {
+  --color-ink: oklch(0.32511773 0.04083403 182.936588);
+  --color-canvas: oklch(0.96953334 0.00670691 97.351718);
+  --color-muted: oklch(0.50941478 0.02770317 158.435684);
+  --color-line: oklch(0.90622619 0.01138593 141.260961);
+  --color-paper: oklch(0.99668322 0.00537183 95.097367);
+  --color-mint: oklch(0.94756142 0.01591277 130.421513);
+  --color-accent: oklch(0.90547101 0.08325267 121.224034);
+  --color-focus: oklch(0.52211221 0.06280839 161.414568);
+  --color-brand-mark: oklch(0.54105919 0.08059431 142.239805);
+  --color-status-dot: oklch(0.57051276 0.08276316 147.455706);
+  --color-chip-surface: oklch(0.95365086 0.0110608 123.45956);
+  --color-display-accent: oklch(0.56643924 0.07458547 133.055175);
+  --color-button-shadow: oklch(0.31336592 0.04101529 177.765326 / 0.062745);
+  --color-button-hover: oklch(0.40260986 0.04846888 171.359688);
+  --color-button-hover-shadow: oklch(
+    0.31336592 0.04101529 177.765326 / 0.109804
+  );
+  --color-disabled-surface: oklch(0.91611597 0.01078572 136.561584);
+  --color-disabled-ink: oklch(0.53649117 0.01918125 150.832089);
+  --color-link-rule: oklch(0.79967626 0.02818018 135.004643);
+  --color-paper-shadow: oklch(0.32511773 0.04083403 182.936588 / 0.062745);
+  --color-studio-shadow: oklch(0.32511773 0.04083403 182.936588 / 0.035294);
+  --color-thumbnail-shadow: oklch(0.3291044 0.04188453 145.760957 / 0.101961);
+  --color-error-surface: oklch(0.97355564 0.01595172 58.641345);
+  --color-error-rule: oklch(0.86239973 0.04265793 54.348464);
+  --color-error-ink: oklch(0.45210001 0.10144503 38.889104);
+  --color-inverse-muted: oklch(0.88446772 0.02579953 134.280652);
+  --color-scrim: oklch(0.27822993 0.03423755 176.834757 / 0.439216);
+  --color-dialog-shadow: oklch(0.27618748 0.03767935 178.35298 / 0.25098);
+  --color-field-error: oklch(0.47727094 0.13884024 24.023048);
+  --color-danger: oklch(0.49613579 0.14062023 23.767236);
+  --color-preview-shadow: oklch(0.34375008 0.05346543 142.543608 / 0.101961);
+  --color-control-rule: oklch(0.865537 0.03660227 129.708776);
+  --color-selection-rule: oklch(0.63662606 0.11014014 131.895322);
+  --color-selection-ring: oklch(0.79733956 0.09147488 129.563982);
+  --color-paper-glass: oklch(0.99668322 0.00537183 95.097367 / 0.909804);
+
+  --color-accent-ink: var(--color-ink);
+  --font-body: "DM Sans Variable", "DM Sans", sans-serif;
+  --font-display: "Fraunces Variable", Georgia, serif;
+  --control-height: 44px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in: cubic-bezier(0.64, 0, 0.78, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --space-3xs: 4px;
+  --space-2xs: 8px;
+  --space-xs: 12px;
+  --space-sm: 16px;
+  --space-sm-wide: 20px;
+  --space-md: 24px;
+  --space-md-wide: 28px;
+  --space-lg: 32px;
+  --space-lg-wide: 36px;
+  --space-xl: 40px;
+  --space-xl-wide: 44px;
+  --space-2xl: 48px;
+  --space-3xl: 56px;
+  --space-3xl-wide: 60px;
+  --space-4xl: 64px;
+  --space-5xl: 72px;
+  --space-6xl: 80px;
+  --space-7xl: 88px;
+  --space-8xl: 96px;
+  --ink: var(--color-ink);
+  --muted: var(--color-muted);
+  --line: var(--color-line);
+  --paper: var(--color-paper);
+  --mint: var(--color-mint);
+  --accent: var(--color-accent);
+}

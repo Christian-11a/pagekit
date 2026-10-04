@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.npm-cache/
+test-results*/
+playwright-report/
+*.tsbuildinfo
+public/pdfjs/
+.playwright-browsers/
+
+# Local caches, credentials, and machine-specific files
+npm-cache/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.hallmark/
+
+# Local planning and generated visual-review evidence
+PROJECT-PLAN.md
+TEST-WHEN-YOU-WAKE-UP.md
+docs/screenshots/
