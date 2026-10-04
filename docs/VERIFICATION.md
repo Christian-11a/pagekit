@@ -1,6 +1,12 @@
 # PageKit verification
 
-Verified locally on Windows starting on 2026-10-03. The source is published on GitHub; live hosting and physical-phone testing remain pending.
+Verified locally on Windows starting on 2026-10-03. The source is published on GitHub, and the website is hosted at https://pagekit-bdy.pages.dev. Physical-phone testing remains pending.
+
+## Live deployment — 2026-10-04
+
+Cloudflare Pages successfully built and deployed the GitHub `main` branch using `npm run build`, output directory `dist`, and Node 24.13.0. Git integration deploys subsequent commits automatically.
+
+On the live HTTPS site in Chrome, sample documents loaded five pages with rendered previews. Page reordering and rotation worked, and the browser downloaded the exported PDF. The download was independently reopened with pypdf: five pages were present, the first page contained the application letter after reordering, and its rotation was 90 degrees. The browser reported no captured console errors. This is a live smoke check, not a repeat of every local browser workflow or a physical-phone check.
 
 ## Completed checks
 

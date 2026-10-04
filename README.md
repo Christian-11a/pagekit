@@ -2,7 +2,7 @@
 
 A free, open-source workspace for organizing PDF pages. Combine documents, arrange their pages, rotate sideways scans, remove extras, and download the result. Documents are processed in your browser.
 
-[Source code and issues](https://github.com/Christian-11a/pagekit) · [MIT license](LICENSE)
+[Use PageKit](https://pagekit-bdy.pages.dev) · [Source code and issues](https://github.com/Christian-11a/pagekit) · [MIT license](LICENSE)
 
 ## Start locally
 
